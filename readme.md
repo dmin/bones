@@ -11,8 +11,7 @@ A barebones testing framework. Well, more of a function than a framework.
 ```javascript
 var test = require('bones');
 
-
-// Function your testing
+// Function you're testing
 function Dog(name) {
   this.name = name;
 }
