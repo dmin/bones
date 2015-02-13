@@ -1,0 +1,23 @@
+{
+  "name": "bones",
+  "version": "0.0.0",
+  "description": "Bare bones testing.",
+  "main": "bones.js",
+  "dependencies": {
+    "colors": "~1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmin/bones.git"
+  },
+  "author": "David Mininger",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dmin/bones/issues"
+  },
+  "homepage": "https://github.com/dmin/bones"
+}
