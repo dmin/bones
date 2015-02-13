@@ -1,6 +1,6 @@
 # Bones
 
-A barebones testing framework. Well, more of a method than a framework.
+A barebones testing framework. Well, more of a function than a framework.
 
 ## Install
 
