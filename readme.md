@@ -1,6 +1,6 @@
 # Bones
 
-A barebones testing framework. Well, more of a function than a framework.
+A barebones javascript testing framework. Actually, more of a single function than a framework.
 
 ## Install
 
@@ -36,7 +36,7 @@ test("Dog should be able to fly", function () {
 });
 ```
 
-In console
+In console:
 
 ```bash
 $ node dog.js
