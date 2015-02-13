@@ -1,5 +1,4 @@
 
-
 var colors = require('colors/safe');
 
 function test(description, test) {
@@ -16,20 +15,4 @@ function test(description, test) {
   }
 }
 
-function Dog(name) {
-  this.name = name;
-}
-
-Dog.prototype.speak = function () {
-  return "Bark!";
-}
-
-var dog = function (name) { return new Dog(name) };
-
-test("Dog should have a name", function () {
-  return dog("Knight").name === "Knight";
-});
-
-test("Dog should be able to speak", function () {
-  return dog("Knight").speak() === "Bark!";
-});
+module.exports = test;
