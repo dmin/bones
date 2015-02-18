@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 
-for file in tests/*.js
-do
-   node $file
-done
+if [ $# -ge 1 ]
+then
+  for file in $1/*.js
+  do
+     node $file
+  done
+else
+  echo "Usage: bones path/to/tests (use ./ for current directory)"
+fi

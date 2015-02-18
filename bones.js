@@ -14,7 +14,7 @@ function test(description, test) {
     console.log(colors.red("ERROR:", description, "(" + error + ")"));
     console.log("File ", e.fileName);
     console.log("Line ", e.lineNumber, ":", e.columnNumber);
-    console.log("Stack Trace:\n", e.stack);                
+    console.log("Stack Trace:\n", e.stack);
   }
 }
 
