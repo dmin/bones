@@ -2,12 +2,15 @@
   "name": "bones",
   "version": "0.0.0",
   "description": "Bare bones testing.",
-  "main": "bones.js",
+  "main": "build/bones.js",
   "dependencies": {
     "colors": "~1.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel": "~4.3.0"
+  },
   "scripts": {
+    "compile": "babel --modules common source --out-dir build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
