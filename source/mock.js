@@ -1,10 +1,19 @@
 
+import includes from "array-includes"
+Array.prototype.includes = includes;
+
+import arrayEqual from "array-equal";
+
+
+
 var expectedCalls = [];
 var actualCalls = [];
 var errors = [];
 
 // TODO feature: expect a certain number of calls to a method
 export default class Mock {
+
+  // TODO refactor: constructor should accept dependencies
 
 
 
